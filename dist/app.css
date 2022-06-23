@@ -558,7 +558,27 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.h-\[117px\] {
+  height: 117px;
+}
+
+.w-\[344px\] {
+  width: 344px;
+}
+
+.w-\[340px\] {
+  width: 340px;
+}
+
+.w-\[34px\] {
+  width: 34px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.bg-\[\#bada55\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(186 218 85 / var(--tw-bg-opacity));
 }
