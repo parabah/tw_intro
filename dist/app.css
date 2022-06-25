@@ -558,6 +558,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.flex {
+  display: flex;
+}
+
 .h-\[117px\] {
   height: 117px;
 }
@@ -566,8 +570,16 @@ video {
   height: 2rem;
 }
 
+.h-80 {
+  height: 20rem;
+}
+
 .w-\[344px\] {
   width: 344px;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .border {
