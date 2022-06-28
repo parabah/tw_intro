@@ -41,16 +41,16 @@
             <h1 class="text-6xl mt-2 py-4 font-semibold">Interior Design</h1>
             <h1 class="text-5xl py-3 text-red-500 font-bold">Showcase.</h1>
             <hr class="my-5 h-3 w-16 rounded-md bg-red-500">
-            <div class="w3-row-padding">
-                <div class="w3-half">
-                  <img class="w-full mt-4 cursor-pointer opacity-80 hover:opacity-100" src="https://www.w3schools.com/w3images/kitchenconcrete.jpg" onclick="onClick(this)" alt="Concrete meets bricks">
-                  <img class="w-full mt-4 cursor-pointer opacity-80 hover:opacity-100" src="https://www.w3schools.com/w3images/livingroom.jpg" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+            <div class="flex flex-col sm:flex-row">
+                <div class="sm:pr-2">
+                  <img class="w-full mt-4 sm:-mb-[6px] cursor-pointer opacity-80 hover:opacity-100" src="https://www.w3schools.com/w3images/kitchenconcrete.jpg" onclick="onClick(this)" alt="Concrete meets bricks">
+                  <img class="w-full mt-4 sm:-mb-[6px] cursor-pointer opacity-80 hover:opacity-100" src="https://www.w3schools.com/w3images/livingroom.jpg" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
                   <img class="w-full mt-4 cursor-pointer opacity-80 hover:opacity-100" src="https://www.w3schools.com/w3images/diningroom.jpg" onclick="onClick(this)" alt="White walls with designer chairs">
                 </div>
             
-                <div class="w3-half">
-                  <img class="w-full mt-4 cursor-pointer opacity-80 hover:opacity-100" src="https://www.w3schools.com/w3images/atrium.jpg" onclick="onClick(this)" alt="Windows for the atrium">
-                  <img class="w-full mt-4 cursor-pointer opacity-80 hover:opacity-100" src="https://www.w3schools.com/w3images/bedroom.jpg" onclick="onClick(this)" alt="Bedroom and office in one space">
+                <div class="sm:pl-2">
+                  <img class="w-full mt-4 sm:-mb-[6px] cursor-pointer opacity-80 hover:opacity-100" src="https://www.w3schools.com/w3images/atrium.jpg" onclick="onClick(this)" alt="Windows for the atrium">
+                  <img class="w-full mt-4 sm:-mb-[6px] cursor-pointer opacity-80 hover:opacity-100" src="https://www.w3schools.com/w3images/bedroom.jpg" onclick="onClick(this)" alt="Bedroom and office in one space">
                   <img class="w-full mt-4 cursor-pointer opacity-80 hover:opacity-100" src="https://www.w3schools.com/w3images/livingroom2.jpg" onclick="onClick(this)" alt="Scandinavian design">
                 </div>
             </div>
@@ -77,37 +77,34 @@
             incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
             <p class="my-4 font-bold">Our designers are thoughtfully chosen:</p>
-            <div class="flex flex-col w-full bg-gray-200 mb-4">
-                <div>
-                  <img src="https://www.w3schools.com/w3images/team2.jpg" alt="John" class="w-full grayscale-[75%]">
-                  <div class="px-4">
-                    <h3 class="text-2xl my-3">John Doe</h3>
-                    <p class="my-4 opacity-80">CEO & Founder</p>
-                    <p class="my-4">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-                  </div>
-                </div>
+            
+            <div class="flex flex-col sm:flex-row">
+              <div class="flex flex-col w-full sm:pr-2 mb-4">
+                    <img src="https://www.w3schools.com/w3images/team2.jpg" alt="John" class="w-full grayscale-[75%]">
+                    <div class="px-4 bg-gray-200">
+                        <h3 class="text-2xl my-3">John Doe</h3>
+                        <p class="my-4 opacity-80">CEO & Founder</p>
+                        <p class="my-4">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                    </div>
               </div>
 
-              <div class="flex flex-col w-full bg-gray-200 mb-4">
-                <div>
+              <div class="flex flex-col w-full sm:px-2 mb-4">
                   <img src="https://www.w3schools.com/w3images/team1.jpg" alt="Jane" class="w-full grayscale-[75%]">
-                  <div class="px-4">
+                  <div class="px-4 bg-gray-200">
                     <h3 class="text-2xl my-3">Jane Doe</h3>
                     <p class="my-4 opacity-80">Designer</p>
                     <p class="my-4">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
                   </div>
-                </div>
               </div>
 
-              <div class="flex flex-col w-full bg-gray-200 mb-4">
-                <div>
+              <div class="flex flex-col w-full sm:pl-2 mb-4">
                     <img src="https://www.w3schools.com/w3images/team3.jpg" alt="Mike" class="w-full grayscale-[75%]">
-                    <div class="px-4">
+                    <div class="px-4 bg-gray-200 ">
                         <h3 class="text-2xl my-3">Mike Ross</h3>
                         <p class="my-4 opacity-80">Architect</p>
                         <p class="my-4">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
                     </div>
-                </div>
+              </div>
             </div>
         </div>
 
@@ -116,41 +113,44 @@
             <h1 class="text-5xl py-3 text-red-500 font-bold"><b>Packages.</b></h1>
             <hr class="my-5 h-3 w-16 rounded-md bg-red-500">
             <p class="my-4 font-bold">Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
-            <div class="text-center mb-4">
-                <ul class="bg-gray-200">
-                    <li class="bg-gray-600 text-white text-2xl py-8 px-4">Basic</li>
-                    <li class="p-4 border-b border-b-gray-300">Floorplanning</li>
-                    <li class="p-4 border-b border-b-gray-300">10 hours support</li>
-                    <li class="p-4 border-b border-b-gray-300">Photography</li>
-                    <li class="p-4 border-b border-b-gray-300">20% furniture discount</li>
-                    <li class="p-4 border-b border-b-gray-300">Good deals</li>
-                    <li class="p-4 border-b border-b-gray-300">
-                        <h2 class="text-4xl my-2">$ 199</h2>
-                        <span class="opacity-80">per room</span>
-                    </li>
-                    <li class="py-6 px-4">
-                        <button class="py-3 px-6 bg-white text-gray-900 hover:bg-black hover:text-white">Sign Up</button>
-                    </li>
-                </ul>
+            <div class="flex flex-col sm:flex-row">
+                <div class="text-center mb-4 w-full sm:pr-2">
+                    <ul class="bg-gray-200">
+                        <li class="bg-gray-600 text-white text-2xl py-8 px-4">Basic</li>
+                        <li class="p-4 border-b border-b-gray-300">Floorplanning</li>
+                        <li class="p-4 border-b border-b-gray-300">10 hours support</li>
+                        <li class="p-4 border-b border-b-gray-300">Photography</li>
+                        <li class="p-4 border-b border-b-gray-300">20% furniture discount</li>
+                        <li class="p-4 border-b border-b-gray-300">Good deals</li>
+                        <li class="p-4 border-b border-b-gray-300">
+                            <h2 class="text-4xl my-2">$ 199</h2>
+                            <span class="opacity-80">per room</span>
+                        </li>
+                        <li class="py-6 px-4">
+                            <button class="py-3 px-6 bg-white text-gray-900 hover:bg-black hover:text-white">Sign Up</button>
+                        </li>
+                    </ul>
+                </div>
+                    
+                <div class="text-center w-full sm:pl-2">
+                    <ul class="bg-gray-200">
+                        <li class="bg-red-500 text-white text-2xl py-8 px-4">Pro</li>
+                        <li class="p-4 border-b border-b-gray-300">Floorplanning</li>
+                        <li class="p-4 border-b border-b-gray-300">50 hours support</li>
+                        <li class="p-4 border-b border-b-gray-300">Photography</li>
+                        <li class="p-4 border-b border-b-gray-300">50% furniture discount</li>
+                        <li class="p-4 border-b border-b-gray-300">GREAT deals</li>
+                        <li class="p-4 border-b border-b-gray-300">
+                            <h2 class="text-4xl my-2">$ 249</h2>
+                            <span class="opacity-80">per room</span>
+                        </li>
+                        <li class="py-6 px-4">
+                            <button class="py-3 px-6 bg-red-500 text-white hover:bg-black hover:text-white">Sign Up</button>
+                        </li>
+                    </ul>
+                </div>
             </div>
-                
-            <div class="text-center">
-                <ul class="bg-gray-200">
-                    <li class="bg-red-500 text-white text-2xl py-8 px-4">Pro</li>
-                    <li class="p-4 border-b border-b-gray-300">Floorplanning</li>
-                    <li class="p-4 border-b border-b-gray-300">50 hours support</li>
-                    <li class="p-4 border-b border-b-gray-300">Photography</li>
-                    <li class="p-4 border-b border-b-gray-300">50% furniture discount</li>
-                    <li class="p-4 border-b border-b-gray-300">GREAT deals</li>
-                    <li class="p-4 border-b border-b-gray-300">
-                        <h2 class="text-4xl my-2">$ 249</h2>
-                        <span class="opacity-80">per room</span>
-                    </li>
-                    <li class="py-6 px-4">
-                        <button class="py-3 px-6 bg-red-500 text-white hover:bg-black hover:text-white">Sign Up</button>
-                    </li>
-                </ul>
-            </div>
+            
         </div>
 
         <!-- Contact -->
