@@ -558,6 +558,14 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.invisible {
+  visibility: hidden;
+}
+
+.hidden {
+  display: none;
+}
+
 .h-\[117px\] {
   height: 117px;
 }
@@ -566,8 +574,20 @@ video {
   height: 2rem;
 }
 
+.h-52 {
+  height: 13rem;
+}
+
 .w-\[344px\] {
   width: 344px;
+}
+
+.w-16 {
+  width: 4rem;
+}
+
+.w-\[320px\] {
+  width: 320px;
 }
 
 .border {
@@ -579,6 +599,11 @@ video {
   background-color: rgb(186 218 85 / var(--tw-bg-opacity));
 }
 
+.bg-blue-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
+}
+
 .p-1 {
   padding: 0.25rem;
 }
@@ -588,18 +613,70 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:invisible {
+    visibility: hidden;
+  }
+
+  .sm\:block {
+    display: block;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
+
+  .sm\:h-\[384\] {
+    height: 384;
+  }
+
+  .sm\:w-\[384px\] {
+    width: 384px;
+  }
+
   .sm\:font-normal {
     font-weight: 400;
   }
 }
 
 @media (min-width: 768px) {
+  .md\:visible {
+    visibility: visible;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:w-\[512px\] {
+    width: 512px;
+  }
+
   .md\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 }
 
 @media (min-width: 1024px) {
+  .lg\:visible {
+    visibility: visible;
+  }
+
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:w-\[640px\] {
+    width: 640px;
+  }
+
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -607,6 +684,18 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:block {
+    display: block;
+  }
+
+  .xl\:hidden {
+    display: none;
+  }
+
+  .xl\:w-\[768px\] {
+    width: 768px;
+  }
+
   .xl\:text-blue-600 {
     --tw-text-opacity: 1;
     color: rgb(37 99 235 / var(--tw-text-opacity));
@@ -614,6 +703,18 @@ video {
 }
 
 @media (min-width: 1536px) {
+  .\32xl\:block {
+    display: block;
+  }
+
+  .\32xl\:hidden {
+    display: none;
+  }
+
+  .\32xl\:w-full {
+    width: 100%;
+  }
+
   .\32xl\:text-5xl {
     font-size: 3rem;
     line-height: 1;
