@@ -644,6 +644,12 @@ body,h1,h2,h3,h4,h5 {
 
 .flex {
   display: flex;
+.m-4 {
+  margin: 1rem;
+}
+
+.h-80 {
+  height: 20rem;
 }
 
 .hidden {
@@ -863,6 +869,17 @@ body,h1,h2,h3,h4,h5 {
 
 .font-semibold {
   font-weight: 600;
+.bg-blue-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 246 255 / var(--tw-bg-opacity));
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .font-bold {
@@ -929,6 +946,19 @@ body,h1,h2,h3,h4,h5 {
 
 .hover\:opacity-100:hover {
   opacity: 1;
+.text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+.hover\:bg-blue-50:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 246 255 / var(--tw-bg-opacity));
+}
+
+.hover\:text-blue-500:hover {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
