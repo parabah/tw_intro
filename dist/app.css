@@ -622,10 +622,6 @@ body,h1,h2,h3,h4,h5 {
   margin-top: 0.5rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -843,9 +839,9 @@ body,h1,h2,h3,h4,h5 {
   line-height: 1;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-semibold {
@@ -927,24 +923,6 @@ body,h1,h2,h3,h4,h5 {
     flex-direction: row;
   }
 
-  .sm\:border {
-    border-width: 1px;
-  }
-
-  .sm\:border-2 {
-    border-width: 2px;
-  }
-
-  .sm\:border-red-100 {
-    --tw-border-opacity: 1;
-    border-color: rgb(254 226 226 / var(--tw-border-opacity));
-  }
-
-  .sm\:border-red-500 {
-    --tw-border-opacity: 1;
-    border-color: rgb(239 68 68 / var(--tw-border-opacity));
-  }
-
   .sm\:px-2 {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -956,10 +934,6 @@ body,h1,h2,h3,h4,h5 {
 
   .sm\:pl-2 {
     padding-left: 0.5rem;
-  }
-
-  .sm\:pr-4 {
-    padding-right: 1rem;
   }
 
   .sm\:font-normal {
