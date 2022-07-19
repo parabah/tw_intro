@@ -793,9 +793,9 @@ body,h1,h2,h3,h4,h5 {
   padding-bottom: 4rem;
 }
 
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .py-4 {
@@ -823,11 +823,6 @@ body,h1,h2,h3,h4,h5 {
   padding-right: 1.5rem;
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
 .pr-14 {
   padding-right: 3.5rem;
 }
@@ -844,6 +839,11 @@ body,h1,h2,h3,h4,h5 {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-6xl {
