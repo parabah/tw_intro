@@ -922,10 +922,6 @@ body,h1,h2,h3,h4,h5 {
 }
 
 @media (min-width: 640px) {
-  .sm\:-mb-\[6px\] {
-    margin-bottom: -6px;
-  }
-
   .sm\:flex-row {
     flex-direction: row;
   }
