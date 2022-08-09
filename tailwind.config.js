@@ -10,7 +10,17 @@ module.exports = {
         'gray-ul-backg' : '#F1F1F1',
         'gray-li-head' : '#616161',
         'gray-li-bottom' : '#DDD'
+      },
+      spacing:{
+        '15' : '60px'
       }
+    },
+    screens: {
+      'sm': '601px',
+      'lg': '993px'
+    },
+    borderRadius:{
+      'md' : '4px'
     },
   },
   plugins: [],
