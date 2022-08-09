@@ -2,7 +2,16 @@
 module.exports = {
   content: ["./src/**/*.{html,js}", "./dist/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        'red-menu' : '#F44336',
+        'red-hr' : '#FF0000',
+        'gray-hover' : '#CCC',
+        'gray-ul-backg' : '#F1F1F1',
+        'gray-li-head' : '#616161',
+        'gray-li-bottom' : '#DDD'
+      }
+    },
   },
   plugins: [],
 }

@@ -729,9 +729,29 @@ body,h1,h2,h3,h4,h5 {
   border-bottom-width: 1px;
 }
 
+.border-b-gray-li-bottom {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(221 221 221 / var(--tw-border-opacity));
+}
+
 .border-b-gray-300 {
   --tw-border-opacity: 1;
   border-bottom-color: rgb(209 213 219 / var(--tw-border-opacity));
+}
+
+.bg-red-menu {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 67 54 / var(--tw-bg-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-red-hr {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-red-500 {
@@ -739,19 +759,19 @@ body,h1,h2,h3,h4,h5 {
   background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
-.bg-gray-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
-}
-
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
-.bg-gray-600 {
+.bg-gray-ul-backg {
   --tw-bg-opacity: 1;
-  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+  background-color: rgb(241 241 241 / var(--tw-bg-opacity));
+}
+
+.bg-gray-li-head {
+  --tw-bg-opacity: 1;
+  background-color: rgb(97 97 97 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -877,6 +897,11 @@ body,h1,h2,h3,h4,h5 {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-red-menu {
+  --tw-text-opacity: 1;
+  color: rgb(244 67 54 / var(--tw-text-opacity));
+}
+
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
@@ -887,12 +912,21 @@ body,h1,h2,h3,h4,h5 {
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
-.opacity-60 {
-  opacity: 0.6;
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.opacity-50 {
+  opacity: 0.5;
 }
 
 .opacity-80 {
   opacity: 0.8;
+}
+
+.opacity-60 {
+  opacity: 0.6;
 }
 
 .grayscale-\[75\%\] {
@@ -900,9 +934,9 @@ body,h1,h2,h3,h4,h5 {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.hover\:bg-gray-300:hover {
+.hover\:bg-gray-hover:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+  background-color: rgb(204 204 204 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-white:hover {
