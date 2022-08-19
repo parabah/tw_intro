@@ -12,7 +12,7 @@ module.exports = {
         'gray-li-bottom' : '#DDD'
       },
       spacing:{
-        '15' : '60px'
+        '12.5': '60px'
       }
     },
     screens: {
@@ -22,6 +22,10 @@ module.exports = {
     borderRadius:{
       'md' : '4px'
     },
+    borderWidth: {
+      DEFAULT: '1px',
+      '5': '5px',
+    }
   },
   plugins: [],
 }
