@@ -13,19 +13,18 @@ module.exports = {
       },
       spacing:{
         '12.5': '60px'
+      },
+      borderRadius:{
+        'md' : '4px'
+      },
+      borderWidth: {
+        '5': '5px',
       }
     },
     screens: {
       'sm': '601px',
       'lg': '993px'
     },
-    borderRadius:{
-      'md' : '4px'
-    },
-    borderWidth: {
-      DEFAULT: '1px',
-      '5': '5px',
-    }
   },
   plugins: [],
 }
