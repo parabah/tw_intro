@@ -601,6 +601,16 @@ body,h1,h2,h3,h4,h5 {
   margin-right: 1rem;
 }
 
+.my-2\.5 {
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
@@ -616,13 +626,8 @@ body,h1,h2,h3,h4,h5 {
   margin-bottom: 0.75rem;
 }
 
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.mr-2 {
-  margin-right: 0.5rem;
+.mr-4 {
+  margin-right: 1rem;
 }
 
 .mt-20 {
@@ -635,6 +640,10 @@ body,h1,h2,h3,h4,h5 {
 
 .mb-4 {
   margin-bottom: 1rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .block {
@@ -705,6 +714,10 @@ body,h1,h2,h3,h4,h5 {
   flex-direction: column;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .items-center {
   align-items: center;
 }
@@ -715,6 +728,10 @@ body,h1,h2,h3,h4,h5 {
 
 .overflow-y-auto {
   overflow-y: auto;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
 }
 
 .rounded-md {
@@ -806,11 +823,6 @@ body,h1,h2,h3,h4,h5 {
   padding-right: 2rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -843,6 +855,10 @@ body,h1,h2,h3,h4,h5 {
   text-align: center;
 }
 
+.align-middle {
+  vertical-align: middle;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -859,8 +875,7 @@ body,h1,h2,h3,h4,h5 {
 }
 
 .text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
+  font-size: 64px;
 }
 
 .text-5xl {
@@ -879,6 +894,22 @@ body,h1,h2,h3,h4,h5 {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.leading-9 {
+  line-height: 2.25rem;
+}
+
+.leading-8\.5 {
+  line-height: 33px;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
+.leading-18 {
+  line-height: 72px;
 }
 
 .text-white {

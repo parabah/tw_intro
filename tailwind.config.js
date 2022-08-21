@@ -19,6 +19,13 @@ module.exports = {
       },
       borderWidth: {
         '5': '5px',
+      },
+      lineHeight: {
+        '8.5' : '33px',
+        '18' : '72px'
+      },
+      fontSize: {
+        '6xl' : '64px'
       }
     },
     screens: {
