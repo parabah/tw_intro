@@ -34,12 +34,7 @@ module.exports = {
       fontSize: {
         'xl' : '22px',
         '6xl' : '64px'
-      },
-      aspectRatio: {
-        '35/28' : '350/289',
-        '9/5' : '9/5',
-        '50/33': '500/333'
-      },
+      }
     },
     screens: {
       'sm': '601px',
