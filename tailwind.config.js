@@ -4,11 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'red-menu' : '#F44336',
-        'red-hr' : '#FF0000',
+        'red-menu' : '#2d4a5d',
+        'red-hr' : '#001e26',
         'gray-hover' : '#CCC',
         'gray-ul-backg' : '#F1F1F1',
-        'gray-li-head' : '#616161',
+        'gray-li-head' : '#80eec0',
         'gray-li-bottom' : '#DDD'
       },
       borderRadius:{
@@ -34,6 +34,11 @@ module.exports = {
       fontSize: {
         'xl' : '22px',
         '6xl' : '64px'
+      },
+      aspectRatio: {
+        '35/28' : '350/289',
+        '9/5' : '9/5',
+        '50/33': '500/333'
       }
     },
     screens: {
