@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha APP</title>
-    <link rel="stylesheet" id="stylesheet" href="./app1.css">
+    <link rel="stylesheet" id="stylesheet" href="/app1.css">
 </head>
 <body class="lg:flex lg:flex-row lg:overflow-x-hidden" onload="defineCSS()">
     <div class="lg:w-[300px] lg:flex-none">
@@ -48,15 +48,15 @@
                 <hr class="my-5 w-12.5 rounded-md border-5 border-red-hr">
                 <div class="flex flex-col sm:flex-row">
                     <div class="sm:pr-2">
-                        <img class="w-full mt-4 cursor-pointer opacity-80 hover:opacity-100 aspect-35/28" src="./img/design/furniture-g758a9c07c_1280.jpg" onclick="onClick(this)" alt="Concrete meets bricks">
-                        <img class="w-full mt-2.5 cursor-pointer opacity-80 hover:opacity-100 aspect-9/5" src="./img/design/kitchen-g1e6569413_1280.jpg" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
-                        <img class="w-full mt-2.5 cursor-pointer opacity-80 hover:opacity-100 aspect-9/5" src="./img/design/kitchen-gcb8ea14d0_1280.jpg" onclick="onClick(this)" alt="White walls with designer chairs">
+                        <img class="w-full mt-4 cursor-pointer opacity-80 hover:opacity-100 aspect-35/28" src="/img/design/furniture-g758a9c07c_1280.jpg" onclick="onClick(this)" alt="Concrete meets bricks">
+                        <img class="w-full mt-2.5 cursor-pointer opacity-80 hover:opacity-100 aspect-9/5" src="/img/design/kitchen-g1e6569413_1280.jpg" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+                        <img class="w-full mt-2.5 cursor-pointer opacity-80 hover:opacity-100 aspect-9/5" src="/img/design/kitchen-gcb8ea14d0_1280.jpg" onclick="onClick(this)" alt="White walls with designer chairs">
                     </div>
                 
                     <div class="sm:pl-2 sm:mt-1.5">
-                        <img class="w-full py-tiny mt-2.5 cursor-pointer opacity-80 hover:opacity-100 aspect-35/28" src="./img/design/living-room-g0de8aa456_1280.jpg" onclick="onClick(this)" alt="Windows for the atrium">
-                        <img class="w-full mt-2.5 cursor-pointer opacity-80 hover:opacity-100 aspect-9/5" src="./img/design/living-room-g9ef86a6bf_1280.jpg" onclick="onClick(this)" alt="Bedroom and office in one space">
-                        <img class="w-full mt-2.5 cursor-pointer opacity-80 hover:opacity-100 aspect-9/5" src="./img/design/room-g8f6a7ff78_1280.jpg" onclick="onClick(this)" alt="Scandinavian design">
+                        <img class="w-full py-tiny mt-2.5 cursor-pointer opacity-80 hover:opacity-100 aspect-35/28" src="/img/design/living-room-g0de8aa456_1280.jpg" onclick="onClick(this)" alt="Windows for the atrium">
+                        <img class="w-full mt-2.5 cursor-pointer opacity-80 hover:opacity-100 aspect-9/5" src="/img/design/living-room-g9ef86a6bf_1280.jpg" onclick="onClick(this)" alt="Bedroom and office in one space">
+                        <img class="w-full mt-2.5 cursor-pointer opacity-80 hover:opacity-100 aspect-9/5" src="/img/design/room-g8f6a7ff78_1280.jpg" onclick="onClick(this)" alt="Scandinavian design">
                     </div>
                 </div>
             </div>
@@ -85,7 +85,7 @@
                 
                 <div class="flex flex-col sm:flex-row sm:-mx-2">
                     <div class="flex flex-col w-full sm:px-2 mb-4">
-                            <img src="./img/pessoas/man-gd4349f959_1280.jpg" alt="John" class="w-full grayscale-[75%] aspect-50/33">
+                            <img src="/img/pessoas/man-gd4349f959_1280.jpg" alt="John" class="w-full grayscale-[75%] aspect-50/33">
                             <div class="px-4 bg-gray-ul-backg">
                                 <h3 class="text-2xl my-2.5 leading-9">John Doe</h3>
                                 <p class="my-4 opacity-60">CEO & Founder</p>
@@ -94,7 +94,7 @@
                     </div>
 
                     <div class="flex flex-col w-full sm:px-2 mb-4">
-                        <img src="./img/pessoas/woman-g0823b6544_1280.jpg" alt="Jane" class="w-full grayscale-[75%] aspect-50/33">
+                        <img src="/img/pessoas/woman-g0823b6544_1280.jpg" alt="Jane" class="w-full grayscale-[75%] aspect-50/33">
                         <div class="px-4 py-tiny bg-gray-ul-backg">
                             <h3 class="text-2xl my-2.5 leading-9">Jane Doe</h3>
                             <p class="my-4 opacity-60">Designer</p>
@@ -103,7 +103,7 @@
                     </div>
 
                     <div class="flex flex-col w-full sm:px-2 mb-4">
-                            <img src="./img/pessoas/model-g26609dab1_1280.jpg" alt="Mike" class="w-full grayscale-[75%] aspect-50/33">
+                            <img src="/img/pessoas/model-g26609dab1_1280.jpg" alt="Mike" class="w-full grayscale-[75%] aspect-50/33">
                             <div class="px-4 bg-gray-ul-backg ">
                                 <h3 class="text-2xl my-2.5 leading-9">Mike Ross</h3>
                                 <p class="my-4 opacity-60">Architect</p>
@@ -204,7 +204,7 @@
           let min = 1;
           let max = 3;
           let number = Math.floor(Math.random() * (max - min + 1) + min);
-          document.getElementById('stylesheet').href=`./app${number}.css`;
+          document.getElementById('stylesheet').href=`/app${number}.css`;
         }
 
         // Modal Image Gallery
